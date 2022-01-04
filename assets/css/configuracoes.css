@@ -168,7 +168,6 @@
   }
   .menu__mobile{
     display: inline;
-    margin-left: 10rem;
     margin-right: 2rem;
     margin-top: 2.6rem;
     
@@ -183,6 +182,9 @@
     margin-bottom: 34rem;
     margin-left: 22rem;
     position: absolute;
+  }
+  #botao__abrir{
+  margin-left:5rem;
   }
   .linha,.linha_2{
     display:none;
