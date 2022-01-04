@@ -1,5 +1,5 @@
 # Music
-Pagina de biblioteca de músicas
-O projeto e um desafio do Devchallenge.
-Foi utilizado Html Css e javascript.
-O app esta totalmente responsivo 
+Pagina de biblioteca de músicas <br>
+O projeto e um desafio do Devchallenge<br>
+Foi utilizado Html Css e javascript<br>
+O app esta totalmente responsivo<br>
