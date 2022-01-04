@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/configuracoes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/playlist.css" />
+    <link rel="stylesheet" href="./assets/css/profile.css" />
+    <link rel="stylesheet" href="./assets/css/tracks.css" />
+    <title>Music</title>
+  </head>
+  <body>
+    <section class="pagina">
+      <div class="menu_profile">
+        <div class="profile">
+          <img
+            class="imagem__profile"
+            src="./assets/img/Profile.jpg"
+            alt="Foto usuario"
+          />
+          <div class="compl__profile">
+            <p class="nome__profile">
+              Matheus<br />
+              Henrique
+            </p>
+            <div class='edit__profile'>
+              <p class="conf__profile">Edit Profile</p>
+              <svg class='icone__profile'xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </div>
+          </div>
+          <boton class='menu__mobile'>
+            <img id ='botao__abrir'src="./assets/img/menu.svg" alt="menu">
+          </boton>
+        </div>
+        <hr class="linha" />
+        <div id='lista__mobile'>
+          <img id='botao__fechar'src="./assets/img/close.svg" alt="icone para fechar">
+        <div class="lista">
+          <ul class="lista_nome">
+            <li class="lista_opcoes lista__ativa">
+              <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-aperture"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+              Overview
+            </li>
+            <li class="lista_opcoes">
+              <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trello"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><rect x="7" y="7" width="3" height="9"></rect><rect x="14" y="7" width="3" height="5"></rect></svg>
+              News
+            </li>
+            <li class="lista_opcoes">
+              <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-music"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+              Playlists
+            </li>
+            <li class="lista_opcoes">
+              <svg  class='icone'xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-radio"><circle cx="12" cy="12" r="2"></circle><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path></svg>
+              Discover
+            </li>
+          </ul>
+        </div>
+        <hr class="linha_2" />
+        <div class="lista_2">
+          <ul class="lista_nome">
+            <li class="lista_opcoes">
+              <svg class='icone'xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sliders"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+              Dashboard
+            </li>
+            <li class="lista_opcoes">
+              <svg class='icone'xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              Messages
+            </li>
+            <li class="lista_opcoes">
+              <svg class='icone' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+              Notifications
+            </li>
+            <li class="lista_opcoes">
+              <svg class='icone'xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              Account
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="playlist__conteudo">
+        <div class="playlist__procurar">
+          <svg class='playlist__lupa'xmlns="http://www.w3.org/2000/svg" width="20"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type='search'class="playlist__pesquisa"placeholder='Search artists, playlists or tracks' type="text">
+        </div>
+        <h1 class="playlist__titulo">Featured Playlists</h1>
+        <section class="playlist__card">
+          <div class="playlist__conteudo">
+            <div class='box'>
+             <img
+                class="playlist__img"
+                src="./assets/img/playlist1.jpg"
+                alt="Playlist stardust"
+              />
+            </div>
+            <p class="playlist__subtitulo">Only Stardust</p>
+            <p class="playlist__tracks">24 tracks</p>
+          </div>
+          <div class="playlist__conteudo">
+            <div class='box'>
+              <img
+                class="playlist__img"
+                src="./assets/img/playlist2.jpg"
+                alt="Playlist stardust"
+              />
+            </div>  
+            <p class="playlist__subtitulo">Mike Vella</p>
+            <p class="playlist__tracks">12 tracks</p>
+          </div>
+          <div class="playlist__conteudo">
+            <div class='box'>
+              <img
+                class="playlist__img"
+                src="./assets/img/playlist3.jpg"
+                alt="Playlist stardust"
+              />
+           </div>
+            <p class="playlist__subtitulo">The Best Singles s2</p>
+            <p class="playlist__tracks">163 tracks</p>
+          </div>
+          <div class="playlist__conteudo">
+            <div class='box'>
+              <img
+                class="playlist__img"
+                src="./assets/img/playlist4.jpg"
+                alt="Playlist stardust"
+              />
+            </div>
+            <p class="playlist__subtitulo">Indie</p>
+            <p class="playlist__tracks">138 tracks</p>
+          </div>
+        </section>
+        <div class="subtitulos">
+          <h2 class="profile__titulo">Profile Views</h2>
+          <h2 class="tracks__titulo">Tracks</h2>
+        </div>
+        <aside class="profile__tracks">
+          <div>
+            <div class="profile__conteudo">
+              <img class="profile__img" src="./assets/img/view1.jpg" />
+              <div class="profile__detalhe">
+                <h2 class="profile__nome">Jenny Villa</h2>
+                <p class="profile__dia">1 day ago</p>
+              </div>
+              <p class="profile__album">4 albums</p>
+            </div>
+            <div class="profile__conteudo">
+              <img class="profile__img" src="./assets/img/view2.jpg" />
+              <div class="profile__detalhe">
+                <h2 class="profile__nome">Aquila</h2>
+                <p class="profile__dia">3 days ago</p>
+              </div>
+              <p class="profile__album">2 albums</p>
+            </div>
+            <div class="profile__conteudo">
+              <img class="profile__img" src="./assets/img/view3.jpg" />
+              <div class="profile__detalhe">
+                <h2 class="profile__nome">This is War</h2>
+                <p class="profile__dia">2 week ago</p>
+              </div>
+              <p class="profile__album">5 albums</p>
+            </div>
+          </div>
+          <div class="tracks">
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track1.jpg" />
+              <p class="tracks__nome">Mahara Bon</p>
+              <p class="tracks__music">Sexy in Paris</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track2.jpg" />
+              <p class="tracks__nome">Donna</p>
+              <p class="tracks__music">Pseudo-life</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track3.jpg" />
+              <p class="tracks__nome">Avven</p>
+              <p class="tracks__music">Magic</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track4.jpg" />
+              <p class="tracks__nome">Cony Matt</p>
+              <p class="tracks__music">Living in hell</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track5.jpg" />
+              <p class="tracks__nome">Claudia cany</p>
+              <p class="tracks__music">Remember</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track6.jpg" />
+              <p class="tracks__nome">Samm</p>
+              <p class="tracks__music">Same - Huly</p>
+            </div>
+            <div class="tracks__card">
+              <img class="tracks__img" src="./assets/img/track7.jpg" />
+              <p class="tracks__nome">Pacify</p>
+              <p class="tracks__music">Portrait</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

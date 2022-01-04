@@ -1,0 +1,135 @@
+.playlist__conteudo{
+    background:#01072b;
+    width:80%;
+}
+.playlist__lupa{
+    margin-left:3.75rem;
+    margin-top:1rem;
+    font-size:12px;
+}
+.playlist__procurar{
+    display:flex;
+    color:#f5f5f555;
+}
+.playlist__pesquisa{
+    color:#e5e5e5e7;
+    margin-top:1.4rem;
+    background: #01072b;
+    border:none;
+    outline:none;
+    margin-left:1rem;
+    font-weight:bold;
+    width:220px;
+}
+.playlist__titulo{
+    font-size: 23px;
+    color:#e5e5e5e7;
+    font-weight:bold;
+    margin-left: 3.75rem;
+    margin-top:1rem;
+}
+.playlist__card{
+    margin-left:4rem;
+    display:flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.playlist__conteudo{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.box{
+    width: 310px;
+    height:200px;
+}
+.playlist__img{
+    width:100%;
+    height: 90%;
+    margin-top:1rem;
+    border-radius:15px;
+    opacity: 0.6; 
+}
+.playlist__img:hover{
+    transform:scale(1.10);
+    opacity:10;
+    transition:0.30s;
+}
+
+.playlist__subtitulo{
+    font-size:20px;
+    color:#e5e5e5e7;
+    font-weight:bold;
+    margin-top:0.50rem;
+}
+.playlist__tracks{
+    color:#f5f5f555;
+    font-size:12px;
+    margin-top:0.50rem;
+    margin-bottom:0.50rem;
+}
+
+
+@media(max-width:636px){
+    .playlist__conteudo{
+        width:auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .playlist__lupa{
+        margin-left:1rem;
+        font-size: 13px;
+    }
+    .playlist__pesquisa{
+        font-size:13px;
+    }
+    .playlist__titulo{
+        font-size:20px;
+        margin-left:2rem;
+        margin-top:2rem;
+    }
+    .playlist__subtitulo{
+        margin-left: 1rem;
+    }
+    .playlist__card{
+        width: auto;
+        margin-left: 1.5rem;
+        margin-right:1.5rem;
+    }
+    .box{
+        width:250px;
+        height:170px;
+    }
+    .playlist__img{
+        width: 237px;
+        margin-left: 1rem;
+    }
+    .playlist__tracks{
+        margin-left: 1rem;
+    }
+}
+@media (max-width:998px){
+    .playlist__conteudo{
+        width:100%;
+    }
+    .playlist__card{
+        margin-left:0px;
+    }
+}
+
+
+
+
+::-webkit-scrollbar-track {
+    background-color: #49349c11;
+    border-radius:7px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #49349c11;
+    height: 6px;
+    border-radius:7px;
+}
+::-webkit-scrollbar-thumb {
+    background:rgb(32, 15, 86);
+    border-radius:7px;
+}
