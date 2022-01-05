@@ -92,8 +92,8 @@
     }
     .playlist__card{
         width: auto;
-        margin-left: 1.5rem;
-        margin-right:1.5rem;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .box{
         width:250px;
