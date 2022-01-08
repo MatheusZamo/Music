@@ -110,6 +110,8 @@
 @media (max-width:998px){
     .playlist__conteudo{
         width:100%;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .playlist__card{
         margin-left:0px;
