@@ -114,6 +114,7 @@
   }
   .lista_nome{
     display: flex;
+    justify-content: space-around;
   }
   .lista_opcoes{
     flex-direction: row;
@@ -123,7 +124,7 @@
   }
   .lista{
     margin-top:2rem;
-    margin-left:5rem;
+    margin-left: 2.5rem;
   }
   .lista_2{
     margin-top:1rem;
