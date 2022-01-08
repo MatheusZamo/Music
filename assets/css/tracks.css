@@ -64,6 +64,7 @@
         height:auto;
         width: 285px;
         margin-bottom:3rem;
+        overflow-y:clip;
     }
     .tracks__card{
         margin-right:0.8rem;
